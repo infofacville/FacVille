@@ -1,0 +1,136 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+nav ul a,
+nav
+.brand-logo {
+  color: #ef5350;
+}
+
+.brand-logo {
+  font-family: 'Satisfy', cursive; font-weight: 800;
+}
+
+.nav-wrapper {
+  padding: 0 100px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+h5{
+  font-size: 2.1em;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.header{
+  margin-top: 18%;
+  font-weight: 800;
+}
+
+.header-subtitle{
+  margin-top: 10%;
+  font-size: 1.25em;
+  font-weight: 800;
+}
+
+#registrati h3{
+  font-size: 2.1em;
+  font-weight: 800;
+}
+
+#registrati h5{
+  font-size: 1.25em;
+  font-weight: 800;
+}
+
+#registrati .header{
+  margin-top: 18%;
+  margin-bottom: 5%;
+}
+
+#registrati button{
+  margin-bottom: 18%;
+}
+
+#designit h3{
+  font-size: 2.1em;
+  font-weight: 800;
+  margin-top: 5%;
+}
+
+#designit h5{
+  font-size: 1.036em;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+#designit button{
+  margin-bottom: 5%;
+}
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.col-servizio{
+  margin-top: 60px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.btn-registrati{
+  width: 100%;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #140F2D;
+}
+
+.social-icon{
+  font-size: 1.5em;
+  color: #fff;
+  padding: 0 20px;
+}
