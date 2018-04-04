@@ -42,9 +42,11 @@ h5{
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.section-intro {
+  height: 100%;
+  width: 100%;
+}
 
 .header{
   margin-top: 18%;
@@ -118,6 +120,11 @@ h5{
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+.section-registrati {
+  height: 100%;
+  width: 100%;
 }
 
 .btn-registrati{
