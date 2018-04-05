@@ -108,6 +108,12 @@ h5{
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+      }
+  .header {
+    font-size: 1.5em;
+  }
+  .typeform-share {
+    width: 100%;
   }
 }
 
